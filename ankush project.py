@@ -5,7 +5,7 @@ import string
 def generate_password(length):
     
     letters = string.ascii_letters   
-    digits = string.digits           
+    digits = string.digits
     symbols = string.punctuation     
 
     
@@ -25,3 +25,4 @@ try:
         print("\n🔐 Your Generated Password is:", strong_password)
 except ValueError:
     print("Please enter a valid number.")
+
